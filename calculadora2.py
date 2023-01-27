@@ -31,6 +31,7 @@ def sair():
     exit
 
 #Programa Principal
+
 linha()
 entrada = "| Olá! Insira a operação matemática desejada |\n"
 entrada += "| Soma                     ->   [+]          |\n"
@@ -39,6 +40,7 @@ entrada += "| Multiplicação            ->   [*]          |\n"
 entrada += "| Divisão                  ->   [/]          |\n"
 entrada += "| Porcentagem              ->   [%]          |\n"
 entrada += "| Sair                     ->   [S]          |\n"
+
 
 operacao = input(entrada)
 
